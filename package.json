@@ -6,10 +6,14 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "express": "^4.17.1",
     "firebase": "^7.20.0",
+    "pg": "^8.3.3",
+    "pg-hstore": "^2.3.3",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-scripts": "3.4.3",
+    "sequelize": "^6.3.5"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -17,10 +21,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-
   "author": "Swetabh Mukherjee",
   "license": "ISC",
-  
   "eslintConfig": {
     "extends": "react-app"
   },
@@ -35,5 +37,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
